@@ -15,11 +15,18 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 .btn {
-  font-family: inherit;
+  background-color: #af864c;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
   cursor: pointer;
-  outline: 0;
-  font-size: 1.05rem;
 }
+
 .title {
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -91,7 +98,6 @@ body {
 }
 .meal-item {
   border-radius: 0.2rem;
-
   overflow: hidden;
   box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
   margin: 2rem 0;
